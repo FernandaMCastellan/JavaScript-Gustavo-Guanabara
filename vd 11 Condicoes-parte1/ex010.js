@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DETRAN</title>
-</head>
-<body>
-    <h1>Sistema de multas</h1>
 
-    Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h 
-
-    <input type="button" value="verificar" onclick="calcular()">
-
-    <div id="res">
-    </div>
-    
-
-    <script>
-       // var txtv = window.document.getElementById('txtvel')
+   // var txtv = window.document.getElementById('txtvel')
        
        function calcular(){
         var txtv = window.document.querySelector('input#txtvel')
@@ -32,6 +14,4 @@
        }
        res.innerHTML += `<p> Dirija sempre com cinto de segurança!<p>`
        }
-    </script>
-</body>
-</html>
+       console.log('o console funciona')
